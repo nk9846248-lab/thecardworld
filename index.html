@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE CARD WORLD</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;padding:20px;
+ background:#030817;color:white;
+ font-family:Arial,sans-serif;
+}
+header{
+ display:flex;justify-content:space-between;
+ font-size:25px;font-weight:bold;
+}
+header span{color:#39ed4c}
+.hero{
+ margin-top:35px;padding:25px;
+ background:#07182e;
+ border:1px solid #4165a5;
+ border-radius:25px;
+ box-shadow:0 0 20px #193d77;
+}
+h1{font-size:32px}
+.green{color:#42ed4d}
+.cards{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:14px;margin-top:25px;
+}
+.card{
+ padding:18px;
+ background:#0b203c;
+ border:1px solid #167d9b;
+ border-radius:16px;
+}
+.card p{color:#a5bbd7}
+button{
+ width:100%;padding:13px;
+ background:#36e64a;color:#04111b;
+ border:0;border-radius:9px;
+ font-weight:bold;
+}
+footer{text-align:center;color:#8ba6c8}
+@media(max-width:450px){
+ .cards{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header>
+ THE CARD <span>WORLD</span>
+</header>
+<section class="hero">
+ <p class="green">✦ PREMIUM DIGITAL STORE</p>
+ <h1>WELCOME TO<br>THE CARD WORLD</h1>
+ <p>Explore Digital Gift Cards</p>
+ <div class="cards">
+  <div class="card">
+   <h2>Google Play</h2>
+   <p>Gift Card Collection</p>
+   <button onclick="alert('Demo only')">CONTINUE BUY</button>
+  </div>
+  <div class="card">
+   <h2>Netflix</h2>
+   <p>Membership Collection</p>
+   <button onclick="alert('Demo only')">CONTINUE BUY</button>
+  </div>
+  <div class="card">
+   <h2>Amazon Prime</h2>
+   <p>Membership Collection</p>
+   <button onclick="alert('Demo only')">CONTINUE BUY</button>
+  </div>
+  <div class="card">
+   <h2>Digital Cards</h2>
+   <p>More Collections</p>
+   <button onclick="alert('Demo only')">CONTINUE BUY</button>
+  </div>
+ </div>
+</section>
+<footer>THE CARD WORLD © 2026</footer>
+</body>
+</html>
